@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    width: 50%;
+    margin-top: 5%;
+    border: 1px solid black;
+    padding: 1%;
+}
+
+#task-name{
+    width: 80%;
+    height: 40px
+}
+
+#sub-btn{
+    width: 19.16%;
+    background-color: dodgerblue;
+    height: 44px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#task-list{
+    list-style: none;
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    height: 40px;
+    margin-bottom: 1%;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: "Comic Sans MS";
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    min-width: 50px;
+}
+
+#cross {
+    height: 17px;
+    width: 13px;
+}
